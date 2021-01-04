@@ -64,6 +64,7 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"/>
             <EditText
+                android:id="@+id/txtUsername"
                 android:paddingLeft="10dp"
                 android:background="@drawable/form"
                 android:hint=""
@@ -80,6 +81,8 @@
                 android:layout_height="wrap_content"
                 android:textStyle="bold"/>
             <EditText
+                android:id="@+id/txtPassword"
+                android:inputType="textPassword"
                 android:paddingLeft="10dp"
                 android:background="@drawable/form"
                 android:hint=""
@@ -93,6 +96,7 @@
                 android:layout_height="wrap_content"/>
 
             <Button
+                android:id="@+id/btnLogin"
                 android:background="@drawable/button"
                 android:textColor="#FFFFFF"
                 android:layout_marginTop="20dp"
@@ -116,6 +120,7 @@
                     android:layout_width="30dp"
                     android:layout_height="match_parent"/>
                 <TextView
+                    android:id="@+id/tvSignup"
                     android:text="Sing up"
                     android:textStyle="bold"
                     android:layout_width="wrap_content"
