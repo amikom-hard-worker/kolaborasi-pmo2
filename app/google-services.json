@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "679445121115",
+    "project_id": "lapakbangunan-d773c",
+    "storage_bucket": "lapakbangunan-d773c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679445121115:android:fc81ada55a7e656956d77e",
+        "android_client_info": {
+          "package_name": "com.hardwoker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "679445121115-ee61mahjl5fn890as8p4drrmppchgh1l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8XfiO7XeaSij9_eUfKkcGVscuTvjb6Tg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "679445121115-ee61mahjl5fn890as8p4drrmppchgh1l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

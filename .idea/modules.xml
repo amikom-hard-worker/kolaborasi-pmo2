@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="hard woker/app" />
-      <module fileurl="file://$PROJECT_DIR$/hard woker.iml" filepath="$PROJECT_DIR$/hard woker.iml" group="hard woker" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/kolaborasi-pmo2.iml" filepath="$PROJECT_DIR$/.idea/kolaborasi-pmo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hard_woker.iml" filepath="$PROJECT_DIR$/.idea/modules/hard_woker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/hard_woker.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/hard_woker.app.iml" />
     </modules>
   </component>
 </project>
