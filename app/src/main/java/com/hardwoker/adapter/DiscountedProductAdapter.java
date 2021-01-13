@@ -10,7 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.hardwoker.R;
-import com.hardwoker.modul.DiscountedProducts;
+import com.hardwoker.model.DiscountedProducts;
 
 import java.util.List;
 

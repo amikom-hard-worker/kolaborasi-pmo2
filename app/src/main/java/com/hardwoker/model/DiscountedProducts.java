@@ -1,4 +1,4 @@
-package com.hardwoker.modul;
+package com.hardwoker.model;
 
 public class DiscountedProducts {
 

@@ -8,10 +8,10 @@
 
 
     <ImageView
-        android:id="@+id/discountImage"
-        android:layout_width="130dp"
-        android:layout_height="70dp"
+        android:id="@+id/categoryImage"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/discountedbaja" />
+        app:srcCompat="@drawable/ic_home_material" />
 </androidx.constraintlayout.widget.ConstraintLayout>
