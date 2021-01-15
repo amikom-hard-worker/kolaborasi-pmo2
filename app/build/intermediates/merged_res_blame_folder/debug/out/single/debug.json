@@ -1,15 +1,19 @@
 [
     {
+        "merged": "D:\\kolaborasi-pmo2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_home_eksterior.xml.flat",
+        "source": "D:\\kolaborasi-pmo2\\app\\src\\main\\res\\drawable\\ic_home_eksterior.xml"
+    },
+    {
         "merged": "D:\\kolaborasi-pmo2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
         "source": "D:\\kolaborasi-pmo2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "D:\\kolaborasi-pmo2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "D:\\kolaborasi-pmo2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
-    },
-    {
         "merged": "D:\\kolaborasi-pmo2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "D:\\kolaborasi-pmo2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\kolaborasi-pmo2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\kolaborasi-pmo2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
         "merged": "D:\\kolaborasi-pmo2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add.xml.flat",
@@ -18,6 +22,10 @@
     {
         "merged": "D:\\kolaborasi-pmo2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "D:\\kolaborasi-pmo2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\kolaborasi-pmo2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_discountedcashback.png.flat",
+        "source": "D:\\kolaborasi-pmo2\\app\\src\\main\\res\\drawable\\discountedcashback.png"
     },
     {
         "merged": "D:\\kolaborasi-pmo2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_home_material.xml.flat",
@@ -36,10 +44,6 @@
         "source": "D:\\kolaborasi-pmo2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\kolaborasi-pmo2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_discountedbesi.png.flat",
-        "source": "D:\\kolaborasi-pmo2\\app\\src\\main\\res\\drawable-v24\\discountedbesi.png"
-    },
-    {
         "merged": "D:\\kolaborasi-pmo2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_search_bg.xml.flat",
         "source": "D:\\kolaborasi-pmo2\\app\\src\\main\\res\\drawable\\search_bg.xml"
     },
@@ -48,16 +52,32 @@
         "source": "D:\\kolaborasi-pmo2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "D:\\kolaborasi-pmo2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_categori.xml.flat",
+        "source": "D:\\kolaborasi-pmo2\\app\\src\\main\\res\\drawable\\ic_categori.xml"
+    },
+    {
         "merged": "D:\\kolaborasi-pmo2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_discountedbaja.png.flat",
         "source": "D:\\kolaborasi-pmo2\\app\\src\\main\\res\\drawable-v24\\discountedbaja.png"
+    },
+    {
+        "merged": "D:\\kolaborasi-pmo2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_home_terdekat.xml.flat",
+        "source": "D:\\kolaborasi-pmo2\\app\\src\\main\\res\\drawable\\ic_home_terdekat.xml"
     },
     {
         "merged": "D:\\kolaborasi-pmo2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_account_settings.xml.flat",
         "source": "D:\\kolaborasi-pmo2\\app\\src\\main\\res\\drawable\\ic_account_settings.xml"
     },
     {
+        "merged": "D:\\kolaborasi-pmo2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_arrow_back_24.xml.flat",
+        "source": "D:\\kolaborasi-pmo2\\app\\src\\main\\res\\drawable\\ic_baseline_arrow_back_24.xml"
+    },
+    {
         "merged": "D:\\kolaborasi-pmo2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_search_black_24dp.xml.flat",
         "source": "D:\\kolaborasi-pmo2\\app\\src\\main\\res\\drawable\\ic_search_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\kolaborasi-pmo2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_all_category.xml.flat",
+        "source": "D:\\kolaborasi-pmo2\\app\\src\\main\\res\\layout\\activity_all_category.xml"
     },
     {
         "merged": "D:\\kolaborasi-pmo2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_close.xml.flat",
@@ -80,16 +100,16 @@
         "source": "D:\\kolaborasi-pmo2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\kolaborasi-pmo2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_discountedsemen.png.flat",
-        "source": "D:\\kolaborasi-pmo2\\app\\src\\main\\res\\drawable-v24\\discountedsemen.png"
+        "merged": "D:\\kolaborasi-pmo2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_home_interior.xml.flat",
+        "source": "D:\\kolaborasi-pmo2\\app\\src\\main\\res\\drawable\\ic_home_interior.xml"
+    },
+    {
+        "merged": "D:\\kolaborasi-pmo2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_discountedperkakas.png.flat",
+        "source": "D:\\kolaborasi-pmo2\\app\\src\\main\\res\\drawable\\discountedperkakas.png"
     },
     {
         "merged": "D:\\kolaborasi-pmo2\\app\\build\\intermediates\\res\\merged\\debug\\layout_tambah_data.xml.flat",
         "source": "D:\\kolaborasi-pmo2\\app\\src\\main\\res\\layout\\tambah_data.xml"
-    },
-    {
-        "merged": "D:\\kolaborasi-pmo2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_discountedpipa.png.flat",
-        "source": "D:\\kolaborasi-pmo2\\app\\src\\main\\res\\drawable-v24\\discountedpipa.png"
     },
     {
         "merged": "D:\\kolaborasi-pmo2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
@@ -106,6 +126,10 @@
     {
         "merged": "D:\\kolaborasi-pmo2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
         "source": "D:\\kolaborasi-pmo2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\kolaborasi-pmo2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_maps.xml.flat",
+        "source": "D:\\kolaborasi-pmo2\\app\\src\\main\\res\\layout\\activity_maps.xml"
     },
     {
         "merged": "D:\\kolaborasi-pmo2\\app\\build\\intermediates\\res\\merged\\debug\\layout_category_row_items.xml.flat",
@@ -138,6 +162,14 @@
     {
         "merged": "D:\\kolaborasi-pmo2\\app\\build\\intermediates\\res\\merged\\debug\\font_open_sans_light.xml.flat",
         "source": "D:\\kolaborasi-pmo2\\app\\src\\main\\res\\font\\open_sans_light.xml"
+    },
+    {
+        "merged": "D:\\kolaborasi-pmo2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_discountedganteng.png.flat",
+        "source": "D:\\kolaborasi-pmo2\\app\\src\\main\\res\\drawable\\discountedganteng.png"
+    },
+    {
+        "merged": "D:\\kolaborasi-pmo2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_home_tools.xml.flat",
+        "source": "D:\\kolaborasi-pmo2\\app\\src\\main\\res\\drawable\\ic_home_tools.xml"
     },
     {
         "merged": "D:\\kolaborasi-pmo2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",

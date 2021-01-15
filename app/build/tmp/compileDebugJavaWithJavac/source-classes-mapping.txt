@@ -2,6 +2,8 @@ com/hardwoker/database/DatabaseTB.java
  com.hardwoker.database.DatabaseTB
 com/hardwoker/BuildConfig.java
  com.hardwoker.BuildConfig
+com/hardwoker/AllCategory.java
+ com.hardwoker.AllCategory
 com/hardwoker/MainActivity.java
  com.hardwoker.MainActivity
  com.hardwoker.MainActivity$1
@@ -15,6 +17,8 @@ com/hardwoker/adapter/CategoryAdapter.java
 com/hardwoker/database/AdapterTB.java
  com.hardwoker.database.AdapterTB
  com.hardwoker.database.AdapterTB$ViewHolder
+com/hardwoker/MapsActivity.java
+ com.hardwoker.MapsActivity
 com/hardwoker/model/DiscountedProducts.java
  com.hardwoker.model.DiscountedProducts
 com/hardwoker/adapter/DiscountedProductAdapter.java

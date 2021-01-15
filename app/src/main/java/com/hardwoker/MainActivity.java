@@ -5,6 +5,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.app.Dialog;
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
@@ -186,5 +187,10 @@ public class MainActivity extends AppCompatActivity {
         categoryRecyclerView.setLayoutManager(layoutManager);
         categoryAdapter = new CategoryAdapter(this,categoryDataList);
         categoryRecyclerView.setAdapter(categoryAdapter);
+    }
+
+    public void pindah(View view) {
+        Intent intent = new Intent(MainActivity.this, AllCategory.class);
+        startActivity(intent);
     }
 }
