@@ -11,6 +11,8 @@ com/hardwoker/MainActivity.java
  com.hardwoker.MainActivity$3
  com.hardwoker.MainActivity$4
  com.hardwoker.MainActivity$5
+com/hardwoker/VerifyOTP.java
+ com.hardwoker.VerifyOTP
 com/hardwoker/adapter/CategoryAdapter.java
  com.hardwoker.adapter.CategoryAdapter
  com.hardwoker.adapter.CategoryAdapter$CategoryViewHolder
@@ -19,6 +21,9 @@ com/hardwoker/database/AdapterTB.java
  com.hardwoker.database.AdapterTB$ViewHolder
 com/hardwoker/MapsActivity.java
  com.hardwoker.MapsActivity
+com/hardwoker/VerifyNomor.java
+ com.hardwoker.VerifyNomor
+ com.hardwoker.VerifyNomor$1
 com/hardwoker/model/DiscountedProducts.java
  com.hardwoker.model.DiscountedProducts
 com/hardwoker/adapter/DiscountedProductAdapter.java
