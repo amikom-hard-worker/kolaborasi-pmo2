@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">679445121115-ee61mahjl5fn890as8p4drrmppchgh1l.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">679445121115</string>
+    <string name="google_api_key" translatable="false">AIzaSyC8XfiO7XeaSij9_eUfKkcGVscuTvjb6Tg</string>
+    <string name="google_app_id" translatable="false">1:679445121115:android:fc81ada55a7e656956d77e</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC8XfiO7XeaSij9_eUfKkcGVscuTvjb6Tg</string>
+    <string name="google_storage_bucket" translatable="false">lapakbangunan-d773c.appspot.com</string>
+    <string name="project_id" translatable="false">lapakbangunan-d773c</string>
+</resources>

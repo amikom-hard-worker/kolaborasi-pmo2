@@ -1,0 +1,24 @@
+com/hardwoker/database/DatabaseTB.java
+ com.hardwoker.database.DatabaseTB
+com/hardwoker/BuildConfig.java
+ com.hardwoker.BuildConfig
+com/hardwoker/model/Category.java
+ com.hardwoker.model.Category
+com/hardwoker/adapter/CategoryAdapter.java
+ com.hardwoker.adapter.CategoryAdapter
+ com.hardwoker.adapter.CategoryAdapter$CategoryViewHolder
+com/hardwoker/model/DiscountedProducts.java
+ com.hardwoker.model.DiscountedProducts
+com/hardwoker/adapter/DiscountedProductAdapter.java
+ com.hardwoker.adapter.DiscountedProductAdapter
+ com.hardwoker.adapter.DiscountedProductAdapter$DiscountedProductViewHolder
+com/hardwoker/MainActivity.java
+ com.hardwoker.MainActivity
+ com.hardwoker.MainActivity$1
+ com.hardwoker.MainActivity$2
+ com.hardwoker.MainActivity$3
+ com.hardwoker.MainActivity$4
+ com.hardwoker.MainActivity$5
+com/hardwoker/database/AdapterTB.java
+ com.hardwoker.database.AdapterTB
+ com.hardwoker.database.AdapterTB$ViewHolder
