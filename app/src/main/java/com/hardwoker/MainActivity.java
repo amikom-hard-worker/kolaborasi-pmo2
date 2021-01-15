@@ -1,5 +1,7 @@
 package com.hardwoker;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -17,6 +19,7 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -28,6 +31,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.hardwoker.adapter.CategoryAdapter;
 import com.hardwoker.adapter.DiscountedProductAdapter;
+import com.hardwoker.database.AdapterTB;
 import com.hardwoker.database.DatabaseTB;
 import com.hardwoker.model.Category;
 import com.hardwoker.model.DiscountedProducts;
@@ -51,6 +55,8 @@ public class MainActivity extends AppCompatActivity {
 
     FirebaseDatabase database = FirebaseDatabase.getInstance();
     DatabaseReference myRef = database.getReference("message");
+    List<DatabaseTB> list = new ArrayList<>();
+    AdapterTB adapterTB;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
         //tambah data
         tblData = findViewById(R.id.tbl_data);
         recyclerView = findViewById(R.id.productRecycler);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         tblData.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -146,15 +153,98 @@ public class MainActivity extends AppCompatActivity {
         myRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                // This method is called once with the initial value and again
-                // whenever data at this location is updated.
-                String value = dataSnapshot.getValue(String.class);
+                list.clear();
+                for(DataSnapshot snapshot : dataSnapshot.getChildren()){
+                    DatabaseTB value  = snapshot.getValue(DatabaseTB.class);
+                    list.add(value);
+                }
+                    adapterTB = new AdapterTB(MainActivity.this,list);
+                    recyclerView.setAdapter(adapterTB);
+
+                    setClick();
             }
 
             @Override
             public void onCancelled(DatabaseError error) {
                 // Failed to read value
                 Log.w("TAG", "Failed to read value.", error.toException());
+            }
+        });
+    }
+
+    private void setClick() {
+        adapterTB.setOnCallBack(new AdapterTB.OnCallBack() {
+            @Override
+            public void onbtndelete(DatabaseTB databaseTB) {
+                deleteData(databaseTB);
+            }
+
+            @Override
+            public void onbtnedit(DatabaseTB databaseTB) {
+                showDialogEditData(databaseTB);
+            }
+        });
+    }
+
+    private void showDialogEditData(DatabaseTB databaseTB) {
+        final Dialog dialog = new Dialog(this);
+        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        dialog.setContentView(R.layout.tambah_data);
+
+        Objects.requireNonNull(dialog.getWindow()).setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+        dialog.setCancelable(true);
+        WindowManager.LayoutParams lp = new WindowManager.LayoutParams();
+        lp.copyFrom(Objects.requireNonNull(dialog.getWindow()).getAttributes());
+        lp.width = WindowManager.LayoutParams.MATCH_PARENT;
+        lp.height = WindowManager.LayoutParams.WRAP_CONTENT;
+        dialog.getWindow().setAttributes(lp);
+
+        ImageButton tblKeluar = dialog.findViewById(R.id.tbl_keluar);
+        tblKeluar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                dialog.dismiss();
+            }
+        });
+
+         EditText txtTambah = dialog.findViewById(R.id.txt_tambah);
+         Button tblTambah = dialog.findViewById(R.id.tbl_tambah);
+         TextView textView = dialog.findViewById(R.id.tv_tambah);
+
+         tblTambah.setText("Simpan");
+         tblTambah.setText("Edit data");
+        txtTambah.setText(databaseTB.getIsi());
+
+        tblTambah.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(TextUtils.isEmpty(txtTambah.getText())){
+                    tblTambah.setError("Silahkan Isi Data");
+                }else {
+                    editData(databaseTB, txtTambah.getText().toString());
+                    dialog.dismiss();
+                }
+            }
+
+
+        });
+        dialog.show();
+    }
+
+    private void editData(DatabaseTB databaseTB, String baru) {
+        myRef.child(databaseTB.getKunci()).child("isi").setValue(baru).addOnSuccessListener(new OnSuccessListener<Void>() {
+            @Override
+            public void onSuccess(Void aVoid) {
+                Toast.makeText(getApplicationContext(), "Update Berhasil", Toast.LENGTH_SHORT).show();
+            }
+        });
+    }
+
+    private void deleteData(DatabaseTB databaseTB) {
+        myRef.child(databaseTB.getKunci()).removeValue(new DatabaseReference.CompletionListener() {
+            @Override
+            public void onComplete(@Nullable DatabaseError error, @NonNull DatabaseReference ref) {
+                Toast.makeText(getApplicationContext(),databaseTB.getIsi()+"telah dihapus!" , Toast.LENGTH_SHORT).show();
             }
         });
     }
@@ -193,4 +283,5 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, AllCategory.class);
         startActivity(intent);
     }
+
 }

@@ -4,6 +4,9 @@ public class DatabaseTB {
     String kunci;
     String isi;
 
+    public DatabaseTB(){
+
+    }
     public DatabaseTB(String kunci, String isi){
         this.kunci = kunci;
         this.isi = isi;

@@ -1,7 +1,7 @@
-#Sat Jan 16 01:22:35 ICT 2021
-base.0=C\:\\Users\\rizky\\AndroidStudioProjects\\kolaborasi-pmo2\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+#Sat Jan 16 02:38:14 ICT 2021
+base.0=D\:\\UNIVERSITAS AMIKOM PURWOKERTO\\SEMESTER 5\\4. Pemrograman Mobile 2\\LapakBangunan\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=C\:\\Users\\rizky\\AndroidStudioProjects\\kolaborasi-pmo2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
+base.1=D\:\\UNIVERSITAS AMIKOM PURWOKERTO\\SEMESTER 5\\4. Pemrograman Mobile 2\\LapakBangunan\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
