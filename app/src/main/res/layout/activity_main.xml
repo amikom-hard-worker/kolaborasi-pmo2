@@ -3,10 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
     android:gravity="center"
-    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/backroundd"
     tools:context=".MainActivity">
+
 
     <TextView
         android:id="@+id/textView"
@@ -14,6 +15,7 @@
         android:layout_height="27dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
+
 
         android:fontFamily="sans-serif"
         android:text="Building Stalls"
@@ -49,9 +51,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
+        android:background="#FFC8C1C1"
         android:fontFamily="@font/open_sans_light"
         android:lineSpacingExtra="4dp"
-        android:text="belanja kebutuhan bangunan dengan mudah menggunakan toko bangunan, tinggal pilih kebutuhan bangun dari rumah"
+        android:text="Belanja kebutuhan bangunan mudah, cepat dan terpercaya"
         android:textColor="#717171"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -65,11 +68,12 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="16dp"
         android:background="@drawable/search_bg"
+        android:backgroundTint="#FFC8C1C1"
         android:drawableLeft="@drawable/ic_search_black_24dp"
         android:drawablePadding="12dp"
         android:ems="10"
         android:fontFamily="@font/open_sans_light"
-        android:hint="Search"
+        android:hint="Cari"
         android:inputType="textPersonName"
         android:paddingStart="12dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -92,8 +96,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
+        android:background="#FFC8C1C1"
         android:fontFamily="sans-serif"
-        android:text="Top Discounted Items"
+        android:text="Diskon Item Terbaik"
         android:textColor="@android:color/background_dark"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -105,8 +110,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
+        android:background="#FFC8C1C1"
         android:fontFamily="sans-serif"
-        android:text="Select Categories"
+        android:text="Pilih Kategori"
         android:textColor="@android:color/background_dark"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -127,34 +133,30 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="12dp"
+        android:background="#FFC8C1C1"
         android:fontFamily="sans-serif"
-        android:text="Product"
+        android:text="Produk"
         android:textColor="@android:color/background_dark"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/categoryRecycler" />
 
-
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/productRecycler"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="727dp">
-
-    </androidx.recyclerview.widget.RecyclerView>
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        tools:layout_editor_absoluteX="0dp"
+        tools:ignore="MissingConstraints" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/tbl_data"
+        android:src="@drawable/ic_add"
+        android:outlineAmbientShadowColor="@color/cardview_dark_background"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="48dp"
         android:layout_marginBottom="48dp"
-        android:outlineAmbientShadowColor="@color/cardview_dark_background"
-        android:src="@drawable/ic_add"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="MissingConstraints">

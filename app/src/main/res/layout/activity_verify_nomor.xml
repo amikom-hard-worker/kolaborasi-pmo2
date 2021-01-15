@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
+    android:background="@drawable/backroundd"
     tools:context=".VerifyNomor">
 
     <ImageView
@@ -28,6 +29,7 @@
         android:layout_marginBottom="15dp"
         android:text="Selamat Datang"
         android:textSize="21sp"
+        android:textColor="#FF000000"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/textView8"
         app:layout_constraintStart_toStartOf="parent"
@@ -41,6 +43,7 @@
         android:layout_marginBottom="15dp"
         android:text="Silakan masuk untuk melanjutkan"
         android:textSize="14sp"
+        android:textColor="#FF000000"
         app:layout_constraintBottom_toTopOf="@+id/phonenumberll"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
@@ -50,6 +53,7 @@
         android:layout_width="353dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="53dp"
+        android:background="#FFC8C1C1"
         android:gravity="center_vertical"
         android:padding="15dp"
         app:layout_constraintBottom_toTopOf="@+id/button_generate_otp"
@@ -75,6 +79,7 @@
             android:layout_marginLeft="10dp"
             android:hint="PhoneNumber"
             android:inputType="phone"
+            android:textColor="#F44336"
             android:textSize="14sp" />
     </LinearLayout>
 
@@ -83,6 +88,7 @@
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="253dp"
+        android:backgroundTint="#FFC8C1C1"
         android:text="LANJUT"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
