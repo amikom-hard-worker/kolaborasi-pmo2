@@ -77,20 +77,19 @@ public class MainActivity extends AppCompatActivity {
         //bagian discon
         discountedProductsList = new ArrayList<>();
         discountedProductsList.add(new DiscountedProducts(1, R.drawable.discountedbaja));
-        discountedProductsList.add(new DiscountedProducts(2, R.drawable.discountedpipa));
+        discountedProductsList.add(new DiscountedProducts(2, R.drawable.discountedcashback));
         discountedProductsList.add(new DiscountedProducts(3, R.drawable.discountedsemenn));
-        discountedProductsList.add(new DiscountedProducts(4, R.drawable.discountedsemen));
+        discountedProductsList.add(new DiscountedProducts(4, R.drawable.discountedganteng));
         discountedProductsList.add(new DiscountedProducts(5, R.drawable.discountedpasir));
-        discountedProductsList.add(new DiscountedProducts(6, R.drawable.discountedbesi));
+        discountedProductsList.add(new DiscountedProducts(6, R.drawable.discountedperkakas));
 
         //bagian kategori
         categoryList = new ArrayList<>();
         categoryList.add(new Category(1, R.drawable.ic_home_material));
-        categoryList.add(new Category(2, R.drawable.ic_home_material));
-        categoryList.add(new Category(3, R.drawable.ic_home_material));
-        categoryList.add(new Category(4, R.drawable.ic_home_material));
-        categoryList.add(new Category(5, R.drawable.ic_home_material));
-        categoryList.add(new Category(6, R.drawable.ic_home_material));
+        categoryList.add(new Category(2, R.drawable.ic_home_tools));
+        categoryList.add(new Category(3, R.drawable.ic_home_terdekat));
+        categoryList.add(new Category(4, R.drawable.ic_home_eksterior));
+        categoryList.add(new Category(5, R.drawable.ic_home_interior));
 
 
         setDiscountedRecycler(discountedProductsList);

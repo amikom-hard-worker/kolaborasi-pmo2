@@ -317,8 +317,9 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="ic_close" />
-                            <entry key="sourceFile" value="D:\UNIVERSITAS AMIKOM PURWOKERTO\SEMESTER 5\4. Pemrograman Mobile 2\LapakBangunan" />
+                            <entry key="assetSourceType" value="FILE" />
+                            <entry key="outputName" value="ic_home_tools" />
+                            <entry key="sourceFile" value="D:\image\ic_home_tools.svg" />
                           </map>
                         </option>
                       </PersistentState>

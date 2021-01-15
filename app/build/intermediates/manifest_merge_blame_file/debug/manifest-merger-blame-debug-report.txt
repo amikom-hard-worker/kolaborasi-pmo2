@@ -6,113 +6,113 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->D:\UNIVERSITAS AMIKOM PURWOKERTO\SEMESTER 5\4. Pemrograman Mobile 2\LapakBangunan\app\src\main\AndroidManifest.xml
+8-->D:\kolaborasi-pmo2\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->D:\UNIVERSITAS AMIKOM PURWOKERTO\SEMESTER 5\4. Pemrograman Mobile 2\LapakBangunan\app\src\main\AndroidManifest.xml
+9-->D:\kolaborasi-pmo2\app\src\main\AndroidManifest.xml
 10
 11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
 12    <!-- <uses-sdk android:minSdkVersion="14"/> -->
 13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-13-->[com.google.firebase:firebase-database:19.6.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\b91a521748f6218cd23a011a37eb7fb5\jetified-firebase-database-19.6.0\AndroidManifest.xml:25:5-79
-13-->[com.google.firebase:firebase-database:19.6.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\b91a521748f6218cd23a011a37eb7fb5\jetified-firebase-database-19.6.0\AndroidManifest.xml:25:22-76
+13-->[com.google.firebase:firebase-database:19.6.0] C:\Users\CIKO\.gradle\caches\transforms-2\files-2.1\b91a521748f6218cd23a011a37eb7fb5\jetified-firebase-database-19.6.0\AndroidManifest.xml:25:5-79
+13-->[com.google.firebase:firebase-database:19.6.0] C:\Users\CIKO\.gradle\caches\transforms-2\files-2.1\b91a521748f6218cd23a011a37eb7fb5\jetified-firebase-database-19.6.0\AndroidManifest.xml:25:22-76
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->[com.google.firebase:firebase-database:19.6.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\b91a521748f6218cd23a011a37eb7fb5\jetified-firebase-database-19.6.0\AndroidManifest.xml:26:5-67
-14-->[com.google.firebase:firebase-database:19.6.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\b91a521748f6218cd23a011a37eb7fb5\jetified-firebase-database-19.6.0\AndroidManifest.xml:26:22-64
+14-->[com.google.firebase:firebase-database:19.6.0] C:\Users\CIKO\.gradle\caches\transforms-2\files-2.1\b91a521748f6218cd23a011a37eb7fb5\jetified-firebase-database-19.6.0\AndroidManifest.xml:26:5-67
+14-->[com.google.firebase:firebase-database:19.6.0] C:\Users\CIKO\.gradle\caches\transforms-2\files-2.1\b91a521748f6218cd23a011a37eb7fb5\jetified-firebase-database-19.6.0\AndroidManifest.xml:26:22-64
 15
 16    <application
-16-->D:\UNIVERSITAS AMIKOM PURWOKERTO\SEMESTER 5\4. Pemrograman Mobile 2\LapakBangunan\app\src\main\AndroidManifest.xml:5:5-22:19
+16-->D:\kolaborasi-pmo2\app\src\main\AndroidManifest.xml:5:5-22:19
 17        android:allowBackup="true"
-17-->D:\UNIVERSITAS AMIKOM PURWOKERTO\SEMESTER 5\4. Pemrograman Mobile 2\LapakBangunan\app\src\main\AndroidManifest.xml:6:9-35
+17-->D:\kolaborasi-pmo2\app\src\main\AndroidManifest.xml:6:9-35
 18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-18-->[androidx.core:core:1.3.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\c7b744b41780b023cb1bc54e238b5549\core-1.3.1\AndroidManifest.xml:24:18-86
+18-->[androidx.core:core:1.3.1] C:\Users\CIKO\.gradle\caches\transforms-2\files-2.1\c7b744b41780b023cb1bc54e238b5549\core-1.3.1\AndroidManifest.xml:24:18-86
 19        android:debuggable="true"
 20        android:icon="@mipmap/ic_launcher"
-20-->D:\UNIVERSITAS AMIKOM PURWOKERTO\SEMESTER 5\4. Pemrograman Mobile 2\LapakBangunan\app\src\main\AndroidManifest.xml:7:9-43
+20-->D:\kolaborasi-pmo2\app\src\main\AndroidManifest.xml:7:9-43
 21        android:label="@string/app_name"
-21-->D:\UNIVERSITAS AMIKOM PURWOKERTO\SEMESTER 5\4. Pemrograman Mobile 2\LapakBangunan\app\src\main\AndroidManifest.xml:8:9-41
+21-->D:\kolaborasi-pmo2\app\src\main\AndroidManifest.xml:8:9-41
 22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->D:\UNIVERSITAS AMIKOM PURWOKERTO\SEMESTER 5\4. Pemrograman Mobile 2\LapakBangunan\app\src\main\AndroidManifest.xml:9:9-54
+22-->D:\kolaborasi-pmo2\app\src\main\AndroidManifest.xml:9:9-54
 23        android:supportsRtl="true"
-23-->D:\UNIVERSITAS AMIKOM PURWOKERTO\SEMESTER 5\4. Pemrograman Mobile 2\LapakBangunan\app\src\main\AndroidManifest.xml:10:9-35
+23-->D:\kolaborasi-pmo2\app\src\main\AndroidManifest.xml:10:9-35
 24        android:testOnly="true"
 25        android:theme="@style/AppTheme" >
-25-->D:\UNIVERSITAS AMIKOM PURWOKERTO\SEMESTER 5\4. Pemrograman Mobile 2\LapakBangunan\app\src\main\AndroidManifest.xml:11:9-40
+25-->D:\kolaborasi-pmo2\app\src\main\AndroidManifest.xml:11:9-40
 26        <activity android:name="com.hardwoker.MainActivity" >
-26-->D:\UNIVERSITAS AMIKOM PURWOKERTO\SEMESTER 5\4. Pemrograman Mobile 2\LapakBangunan\app\src\main\AndroidManifest.xml:12:9-18:20
-26-->D:\UNIVERSITAS AMIKOM PURWOKERTO\SEMESTER 5\4. Pemrograman Mobile 2\LapakBangunan\app\src\main\AndroidManifest.xml:12:19-47
+26-->D:\kolaborasi-pmo2\app\src\main\AndroidManifest.xml:12:9-18:20
+26-->D:\kolaborasi-pmo2\app\src\main\AndroidManifest.xml:12:19-47
 27            <intent-filter>
-27-->D:\UNIVERSITAS AMIKOM PURWOKERTO\SEMESTER 5\4. Pemrograman Mobile 2\LapakBangunan\app\src\main\AndroidManifest.xml:13:13-17:29
+27-->D:\kolaborasi-pmo2\app\src\main\AndroidManifest.xml:13:13-17:29
 28                <action android:name="android.intent.action.MAIN" />
-28-->D:\UNIVERSITAS AMIKOM PURWOKERTO\SEMESTER 5\4. Pemrograman Mobile 2\LapakBangunan\app\src\main\AndroidManifest.xml:14:17-69
-28-->D:\UNIVERSITAS AMIKOM PURWOKERTO\SEMESTER 5\4. Pemrograman Mobile 2\LapakBangunan\app\src\main\AndroidManifest.xml:14:25-66
+28-->D:\kolaborasi-pmo2\app\src\main\AndroidManifest.xml:14:17-69
+28-->D:\kolaborasi-pmo2\app\src\main\AndroidManifest.xml:14:25-66
 29
 30                <category android:name="android.intent.category.LAUNCHER" />
-30-->D:\UNIVERSITAS AMIKOM PURWOKERTO\SEMESTER 5\4. Pemrograman Mobile 2\LapakBangunan\app\src\main\AndroidManifest.xml:16:17-77
-30-->D:\UNIVERSITAS AMIKOM PURWOKERTO\SEMESTER 5\4. Pemrograman Mobile 2\LapakBangunan\app\src\main\AndroidManifest.xml:16:27-74
+30-->D:\kolaborasi-pmo2\app\src\main\AndroidManifest.xml:16:17-77
+30-->D:\kolaborasi-pmo2\app\src\main\AndroidManifest.xml:16:27-74
 31            </intent-filter>
 32        </activity>
 33
 34        <meta-data
-34-->D:\UNIVERSITAS AMIKOM PURWOKERTO\SEMESTER 5\4. Pemrograman Mobile 2\LapakBangunan\app\src\main\AndroidManifest.xml:19:9-21:57
+34-->D:\kolaborasi-pmo2\app\src\main\AndroidManifest.xml:19:9-21:57
 35            android:name="preloaded_fonts"
-35-->D:\UNIVERSITAS AMIKOM PURWOKERTO\SEMESTER 5\4. Pemrograman Mobile 2\LapakBangunan\app\src\main\AndroidManifest.xml:20:13-43
+35-->D:\kolaborasi-pmo2\app\src\main\AndroidManifest.xml:20:13-43
 36            android:resource="@array/preloaded_fonts" />
-36-->D:\UNIVERSITAS AMIKOM PURWOKERTO\SEMESTER 5\4. Pemrograman Mobile 2\LapakBangunan\app\src\main\AndroidManifest.xml:21:13-54
+36-->D:\kolaborasi-pmo2\app\src\main\AndroidManifest.xml:21:13-54
 37
 38        <service
-38-->[com.google.firebase:firebase-database:19.6.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\b91a521748f6218cd23a011a37eb7fb5\jetified-firebase-database-19.6.0\AndroidManifest.xml:29:9-35:19
+38-->[com.google.firebase:firebase-database:19.6.0] C:\Users\CIKO\.gradle\caches\transforms-2\files-2.1\b91a521748f6218cd23a011a37eb7fb5\jetified-firebase-database-19.6.0\AndroidManifest.xml:29:9-35:19
 39            android:name="com.google.firebase.components.ComponentDiscoveryService"
-39-->[com.google.firebase:firebase-database:19.6.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\b91a521748f6218cd23a011a37eb7fb5\jetified-firebase-database-19.6.0\AndroidManifest.xml:30:13-84
+39-->[com.google.firebase:firebase-database:19.6.0] C:\Users\CIKO\.gradle\caches\transforms-2\files-2.1\b91a521748f6218cd23a011a37eb7fb5\jetified-firebase-database-19.6.0\AndroidManifest.xml:30:13-84
 40            android:directBootAware="true"
-40-->[com.google.firebase:firebase-common:19.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\a1a0dd31f879d0e0833f843cdad90ed6\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
+40-->[com.google.firebase:firebase-common:19.5.0] C:\Users\CIKO\.gradle\caches\transforms-2\files-2.1\a1a0dd31f879d0e0833f843cdad90ed6\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
 41            android:exported="false" >
-41-->[com.google.firebase:firebase-database:19.6.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\b91a521748f6218cd23a011a37eb7fb5\jetified-firebase-database-19.6.0\AndroidManifest.xml:31:13-37
+41-->[com.google.firebase:firebase-database:19.6.0] C:\Users\CIKO\.gradle\caches\transforms-2\files-2.1\b91a521748f6218cd23a011a37eb7fb5\jetified-firebase-database-19.6.0\AndroidManifest.xml:31:13-37
 42            <meta-data
-42-->[com.google.firebase:firebase-database:19.6.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\b91a521748f6218cd23a011a37eb7fb5\jetified-firebase-database-19.6.0\AndroidManifest.xml:32:13-34:85
+42-->[com.google.firebase:firebase-database:19.6.0] C:\Users\CIKO\.gradle\caches\transforms-2\files-2.1\b91a521748f6218cd23a011a37eb7fb5\jetified-firebase-database-19.6.0\AndroidManifest.xml:32:13-34:85
 43                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-43-->[com.google.firebase:firebase-database:19.6.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\b91a521748f6218cd23a011a37eb7fb5\jetified-firebase-database-19.6.0\AndroidManifest.xml:33:17-109
+43-->[com.google.firebase:firebase-database:19.6.0] C:\Users\CIKO\.gradle\caches\transforms-2\files-2.1\b91a521748f6218cd23a011a37eb7fb5\jetified-firebase-database-19.6.0\AndroidManifest.xml:33:17-109
 44                android:value="com.google.firebase.components.ComponentRegistrar" />
-44-->[com.google.firebase:firebase-database:19.6.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\b91a521748f6218cd23a011a37eb7fb5\jetified-firebase-database-19.6.0\AndroidManifest.xml:34:17-82
+44-->[com.google.firebase:firebase-database:19.6.0] C:\Users\CIKO\.gradle\caches\transforms-2\files-2.1\b91a521748f6218cd23a011a37eb7fb5\jetified-firebase-database-19.6.0\AndroidManifest.xml:34:17-82
 45            <!--
 46                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
 47                clients to use it as well, by defining this registrar in their own core/common library.
 48            -->
 49            <meta-data
-49-->[com.google.firebase:firebase-common:19.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\a1a0dd31f879d0e0833f843cdad90ed6\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
+49-->[com.google.firebase:firebase-common:19.5.0] C:\Users\CIKO\.gradle\caches\transforms-2\files-2.1\a1a0dd31f879d0e0833f843cdad90ed6\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
 50                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
-50-->[com.google.firebase:firebase-common:19.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\a1a0dd31f879d0e0833f843cdad90ed6\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
+50-->[com.google.firebase:firebase-common:19.5.0] C:\Users\CIKO\.gradle\caches\transforms-2\files-2.1\a1a0dd31f879d0e0833f843cdad90ed6\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
 51                android:value="com.google.firebase.components.ComponentRegistrar" />
-51-->[com.google.firebase:firebase-common:19.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\a1a0dd31f879d0e0833f843cdad90ed6\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
+51-->[com.google.firebase:firebase-common:19.5.0] C:\Users\CIKO\.gradle\caches\transforms-2\files-2.1\a1a0dd31f879d0e0833f843cdad90ed6\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
 52        </service>
 53
 54        <provider
-54-->[com.google.firebase:firebase-common:19.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\a1a0dd31f879d0e0833f843cdad90ed6\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
+54-->[com.google.firebase:firebase-common:19.5.0] C:\Users\CIKO\.gradle\caches\transforms-2\files-2.1\a1a0dd31f879d0e0833f843cdad90ed6\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
 55            android:name="com.google.firebase.provider.FirebaseInitProvider"
-55-->[com.google.firebase:firebase-common:19.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\a1a0dd31f879d0e0833f843cdad90ed6\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
+55-->[com.google.firebase:firebase-common:19.5.0] C:\Users\CIKO\.gradle\caches\transforms-2\files-2.1\a1a0dd31f879d0e0833f843cdad90ed6\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
 56            android:authorities="com.hardwoker.firebaseinitprovider"
-56-->[com.google.firebase:firebase-common:19.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\a1a0dd31f879d0e0833f843cdad90ed6\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
+56-->[com.google.firebase:firebase-common:19.5.0] C:\Users\CIKO\.gradle\caches\transforms-2\files-2.1\a1a0dd31f879d0e0833f843cdad90ed6\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
 57            android:directBootAware="true"
-57-->[com.google.firebase:firebase-common:19.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\a1a0dd31f879d0e0833f843cdad90ed6\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
+57-->[com.google.firebase:firebase-common:19.5.0] C:\Users\CIKO\.gradle\caches\transforms-2\files-2.1\a1a0dd31f879d0e0833f843cdad90ed6\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
 58            android:exported="false"
-58-->[com.google.firebase:firebase-common:19.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\a1a0dd31f879d0e0833f843cdad90ed6\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
+58-->[com.google.firebase:firebase-common:19.5.0] C:\Users\CIKO\.gradle\caches\transforms-2\files-2.1\a1a0dd31f879d0e0833f843cdad90ed6\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
 59            android:initOrder="100" />
-59-->[com.google.firebase:firebase-common:19.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\a1a0dd31f879d0e0833f843cdad90ed6\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
+59-->[com.google.firebase:firebase-common:19.5.0] C:\Users\CIKO\.gradle\caches\transforms-2\files-2.1\a1a0dd31f879d0e0833f843cdad90ed6\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
 60
 61        <activity
-61-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\0abbc4965678a88920908025d1cf8d37\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+61-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\CIKO\.gradle\caches\transforms-2\files-2.1\0abbc4965678a88920908025d1cf8d37\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
 62            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-62-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\0abbc4965678a88920908025d1cf8d37\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+62-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\CIKO\.gradle\caches\transforms-2\files-2.1\0abbc4965678a88920908025d1cf8d37\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
 63            android:exported="false"
-63-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\0abbc4965678a88920908025d1cf8d37\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+63-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\CIKO\.gradle\caches\transforms-2\files-2.1\0abbc4965678a88920908025d1cf8d37\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
 64            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-64-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\0abbc4965678a88920908025d1cf8d37\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+64-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\CIKO\.gradle\caches\transforms-2\files-2.1\0abbc4965678a88920908025d1cf8d37\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
 65
 66        <meta-data
-66-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\e4a4bb2243f25d4fcabcf71b606a7a1e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+66-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\CIKO\.gradle\caches\transforms-2\files-2.1\e4a4bb2243f25d4fcabcf71b606a7a1e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
 67            android:name="com.google.android.gms.version"
-67-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\e4a4bb2243f25d4fcabcf71b606a7a1e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+67-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\CIKO\.gradle\caches\transforms-2\files-2.1\e4a4bb2243f25d4fcabcf71b606a7a1e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
 68            android:value="@integer/google_play_services_version" />
-68-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\e4a4bb2243f25d4fcabcf71b606a7a1e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+68-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\CIKO\.gradle\caches\transforms-2\files-2.1\e4a4bb2243f25d4fcabcf71b606a7a1e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
 69    </application>
 70
 71</manifest>
