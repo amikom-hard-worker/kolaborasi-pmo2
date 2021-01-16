@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "679445121115",
+    "firebase_url": "https://lapakbangunan-d773c-default-rtdb.firebaseio.com",
     "project_id": "lapakbangunan-d773c",
     "storage_bucket": "lapakbangunan-d773c.appspot.com"
   },
@@ -13,6 +14,14 @@
         }
       },
       "oauth_client": [
+        {
+          "client_id": "679445121115-afn5o4vinmjsu7a037rjcvj5mvifkmlv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hardwoker",
+            "certificate_hash": "492e31e4210995793fe72f5caf820c713d244268"
+          }
+        },
         {
           "client_id": "679445121115-ee61mahjl5fn890as8p4drrmppchgh1l.apps.googleusercontent.com",
           "client_type": 3
