@@ -29,6 +29,8 @@ com/hardwoker/database/AdapterTB.java
  com.hardwoker.database.AdapterTB$ViewHolder
 com/hardwoker/MapsActivity.java
  com.hardwoker.MapsActivity
+ com.hardwoker.MapsActivity$1
+ com.hardwoker.MapsActivity$2
 com/hardwoker/VerifyNomor.java
  com.hardwoker.VerifyNomor
  com.hardwoker.VerifyNomor$1
